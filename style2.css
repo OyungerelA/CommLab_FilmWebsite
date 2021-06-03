@@ -1,0 +1,163 @@
+.title{
+	text-align: center;
+	font-size: 1.8em;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: #ff5925;
+}
+
+body{
+	background-color: #FFD358;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.navigation{
+	flex:1;
+	padding-left: 25px;
+	margin-top: 50px;
+	font-size: 1.3em;
+}
+
+.navigation h3{
+	padding: 10px;
+}
+
+a{
+	color: black;
+}
+
+.page a{
+	text-decoration: none;
+}
+
+.page:hover{
+	color: #5884FF;
+}
+
+.page a:hover{
+	color: #5884FF;
+}
+
+.flexible{
+	display: flex;
+	flex:2;
+	padding-top: 15px;
+	flex-direction: column;
+}
+
+.flexible h3{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 1.5em;
+	color: #0c4cff;
+}
+
+.one{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.one div{
+	padding: 18px;
+}
+
+.two{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.two div{
+	padding: 18px;
+}
+
+
+.aboutus{
+	color: #5884FF;
+	flex:1;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.aboutus h3{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.text{
+	width: 50%;
+	margin: auto;
+}
+
+.plot{
+	padding-top: 20px;
+}
+
+
+.info{
+	padding: 15px;
+}
+
+.cont{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+
+.cont div{
+	position: absolute;
+	bottom: 40%;
+	top: 9.5%;
+	left: 12%;
+	background: black;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0s, opacity 0.5s linear;
+	text-align: center;
+}
+
+.cont:hover{
+	cursor: pointer;
+}
+
+.cont:hover div{
+	width: 135px;
+	height: 67%;
+	visibility: visible;
+	opacity: 0.7;
+}
+
+.cont img{
+	width: 170px;
+	height: 230px;
+	padding: 10px;
+}
+
+.icon{
+	display: flex;
+	justify-content: center;
+}
+
+.icon img{
+	width: 25px;
+	height: 25px;
+	padding-right: 23px;
+	padding-left: 25px;
+	padding-top: 30px;
+}
+

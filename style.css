@@ -1,0 +1,115 @@
+.title{
+	text-align: center;
+	font-size: 1.8em;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: #ff5925
+}
+
+body{
+	background-color: #FFD358;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.navigation{
+	flex:1;
+	padding-left: 25px;
+	margin-top: 50px;
+	font-size: 1.3em;
+}
+
+.navigation h3{
+	padding: 10px;
+}
+
+a{
+	color: black;
+}
+
+.page a{
+	text-decoration: none;
+}
+
+.page:hover{
+	color: #5884FF;
+}
+
+.page a:hover{
+	color: #5884FF;
+}
+
+.flexible{
+	flex:2;
+	padding-top: 10px;
+}
+
+.flexible h3{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 1.5em;
+	color: #ff5925;
+}
+
+.reviews{
+	padding-top: 55px;
+}
+
+.reviews img{
+	width: 100px;
+}
+
+.aboutus{
+	color: #5884FF;
+	flex:1;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.aboutus h3{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.text{
+	width: 50%;
+	margin: auto;
+}
+
+.plot{
+	padding-top: 20px;
+}
+
+.info{
+	padding: 15px;
+}
+
+.cont img{
+	width: 100px;
+}
+
+.icon{
+	display: flex;
+	justify-content: center;
+}
+
+.icon img{
+	width: 25px;
+	height: 25px;
+	padding-right: 23px;
+	padding-left: 25px;
+	padding-top: 30px;
+}
+
+
+
